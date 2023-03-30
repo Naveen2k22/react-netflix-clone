@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  padding: 0.25rem;
+}
+
+.globe {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translate(0,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown, .languages {
+  font-family: 'Poppins';
+  padding: 0.15rem 1.5rem;
+  border-radius: 0.25rem;
+  height: 2rem;
+  background-color: transparent;
+}
